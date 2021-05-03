@@ -1,0 +1,328 @@
+body {font-family: allerta}
+
+h1 {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5em;
+    padding-top: 133px;
+    padding-left: 578px;
+    color: darkolivegreen;
+}
+
+h2 {
+    float: right;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+    margin-bottom: 67px;
+    margin-top: -1119px;
+    margin-right: 100px;
+}
+
+
+body nav a {
+    color:darkolivegreen;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+.logo{ 
+width: 30%;
+float: left;
+line-height: 100px;}
+
+.logo a {
+text-decoration: none;
+font-size: 30px;
+font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+color:darkolivegreen;
+letter-spacing: 3px;
+}
+
+nav {
+	
+float: right;
+line-height: 100px;
+}
+
+
+nav a {
+text-decoration: none;
+font-family: poppins;
+letter-spacing: 4px;
+font-size: 20px;
+margin: 0 10px;
+opacity: 0.6;
+}
+
+nav a:hover{
+text-decoration: none;
+letter-spacing: 4px;
+font-size: 20px;
+margin: 0 10px;
+opacity: 10;
+
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+header {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 42px;
+}
+
+.garden { 
+margin-right: 50%;
+	float: left;
+}
+
+
+form {
+    max-width: 420px;
+    margin-left: 15%;
+    padding-top: 0px;
+    padding-left: 282px;
+}
+
+.feedback-input {
+  color:black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #588752;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  margin-top: 8%;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #588752; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#588752;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:black;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover {
+    background: #CC4949;
+    text-decoration: overline;
+}
+
+
+
+	
+h3 a{
+    color: darkolivegreen;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+    font-style: normal;
+    font-weight: 0;
+    font-variant: normal;
+    text-align: right;
+    opacity: 0.7;
+    padding-left: 40%;
+    text-decoration: none;
+}
+
+h3 a:hover {
+	opacity: 10;
+   color:darkolivegreen;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+    font-style: normal;
+    font-weight: 0;
+    text-decoration: none;
+}
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 0;
+    padding-right: 4px;
+    padding-left: 0px;
+    padding-bottom: 0;
+    width: 196%;
+    margin-left: 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+.container {
+    margin-top: 6px;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+.audio {
+    width: 100%;
+    padding-top: 0px;
+    margin-top: -3px;
+}
+
+footer {
+    padding: 15px;
+    text-align: center;
+	color:darkblue;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+    text-decoration: none;
+}
+
+.fa{
+    color:darkslategrey;
+    font-size: 20px;
+
+}
+
+.column {
+    float: left;
+    width: 50%;
+    background-color: #FFFFFF;
+    background-image: -webkit-linear-gradient(270deg,rgba(124,175,119,1.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(124,175,119,1.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(124,175,119,1.00) 0%,rgba(255,255,255,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(124,175,119,1.00) 0%,rgba(255,255,255,1.00) 100%);
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color: whitesmoke;
+}
+
+.pin{display: flex;
+    flex-wrap: wrap;
+    padding-top: 0;
+    padding-right: 4px;
+    padding-left: 0px;
+    padding-bottom: 0;
+    width: 196%;
+    margin-left: 4px;}
+
+.pin:after {
+  content: "";
+  display: table;
+  clear: both;
+	background-color: whitesmoke;}
+
+.col{
+    float: left;
+    width: 50%;
+    background-color: #FFFFFF;
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(62,87,63,1.00) 94.50%,rgba(59,65,53,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(62,87,63,1.00) 94.50%,rgba(59,65,53,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(62,87,63,1.00) 94.50%,rgba(59,65,53,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(62,87,63,1.00) 94.50%,rgba(59,65,53,1.00) 100%);
+    margin-left: 0px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-right: 0px;
+    }
+
+.col {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.col img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+.container {
+    margin-top: 6px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .col {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .col {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.mood {
+    text-decoration: none;
+    color:deeppink;
+	transform: translate(-155px, 0) scale(0.4);
+	animation: animate .5s forwards;
+}
+
